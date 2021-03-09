@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E7p-Id-VcT">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ProfileImageOutCameraViewController-->
+        <scene sceneID="pvL-eP-zUG">
+            <objects>
+                <viewController title="ProfileImageOutCameraViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="E7p-Id-VcT" customClass="ProfileImageOutCameraViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2lD-5c-90n" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grid" translatesAutoresizingMaskIntoConstraints="NO" id="dni-Nk-6pm">
+                                <rect key="frame" x="0.0" y="44" width="390" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dni-Nk-6pm" secondAttribute="height" multiplier="1:1" id="VtD-2N-ulk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd3-cY-NUq">
+                                <rect key="frame" x="171" y="484" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="1f7-l6-Qxp"/>
+                                    <constraint firstAttribute="width" secondItem="xd3-cY-NUq" secondAttribute="height" multiplier="1:1" id="cNa-3n-ZqW"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal" image="grid" catalog="system"/>
+                                <connections>
+                                    <action selector="gridButtonTouchDown:" destination="E7p-Id-VcT" eventType="touchDown" id="19o-m2-lsz"/>
+                                    <action selector="gridButtonTouchDragOutside:" destination="E7p-Id-VcT" eventType="touchDragOutside" id="q8F-6l-EqT"/>
+                                    <action selector="gridButtonTouchUpInside:" destination="E7p-Id-VcT" eventType="touchUpInside" id="wF9-pc-Pkb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cP2-JY-5bm">
+                                <rect key="frame" x="147" y="582" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="FqW-Hq-WGL"/>
+                                    <constraint firstAttribute="width" secondItem="cP2-JY-5bm" secondAttribute="height" multiplier="1:1" id="OOb-Ii-XJI"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="camera"/>
+                                <connections>
+                                    <action selector="cameraButtonTouchDown:" destination="E7p-Id-VcT" eventType="touchDown" id="HsB-VC-uCT"/>
+                                    <action selector="cameraButtonTouchDragOutside:" destination="E7p-Id-VcT" eventType="touchDragOutside" id="nE4-aA-4Ku"/>
+                                    <action selector="cameraButtonTouchUpInside:" destination="E7p-Id-VcT" eventType="touchUpInside" id="Y5x-RR-Gr4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cs-LE-bi6">
+                                <rect key="frame" x="49" y="606" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1cs-LE-bi6" secondAttribute="height" multiplier="1:1" id="bh9-Ex-1y0"/>
+                                    <constraint firstAttribute="width" constant="48" id="vuH-0W-uXv"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="bolt.slash.fill" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="flashButtonTouchDown:" destination="E7p-Id-VcT" eventType="touchDown" id="iUn-Xl-W5z"/>
+                                    <action selector="flashButtonTouchDragOutside:" destination="E7p-Id-VcT" eventType="touchDragOutside" id="dwy-Un-EfZ"/>
+                                    <action selector="flashButtonTouchUpInside:" destination="E7p-Id-VcT" eventType="touchUpInside" id="ayh-Ks-5q8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niT-XB-fey">
+                                <rect key="frame" x="293" y="606" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="niT-XB-fey" secondAttribute="height" multiplier="1:1" id="CyM-Rf-QV2"/>
+                                    <constraint firstAttribute="width" constant="48" id="QZ5-9p-e6A"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="arrow.triangle.2.circlepath" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="toInCameraButtonTouchUpInside:" destination="E7p-Id-VcT" eventType="touchUpInside" id="O1d-u4-k1x"/>
+                                    <action selector="toOutCameraButtonTouchDown:" destination="E7p-Id-VcT" eventType="touchDown" id="eA9-gk-m5I"/>
+                                    <action selector="toOutCameraButtonTouchDragOutside:" destination="E7p-Id-VcT" eventType="touchDragOutside" id="qUJ-lN-Ebu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NQT-Wx-nFR"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="niT-XB-fey" firstAttribute="centerY" secondItem="1cs-LE-bi6" secondAttribute="centerY" id="1hR-NW-2Pi"/>
+                            <constraint firstItem="cP2-JY-5bm" firstAttribute="centerY" secondItem="1cs-LE-bi6" secondAttribute="centerY" id="5hs-4K-DBf"/>
+                            <constraint firstItem="cP2-JY-5bm" firstAttribute="centerX" secondItem="2lD-5c-90n" secondAttribute="centerX" id="C5E-fu-svu"/>
+                            <constraint firstItem="cP2-JY-5bm" firstAttribute="centerX" secondItem="xd3-cY-NUq" secondAttribute="centerX" id="NvJ-5l-poF"/>
+                            <constraint firstItem="dni-Nk-6pm" firstAttribute="top" secondItem="NQT-Wx-nFR" secondAttribute="top" id="Txo-PX-KAD"/>
+                            <constraint firstItem="dni-Nk-6pm" firstAttribute="leading" secondItem="NQT-Wx-nFR" secondAttribute="leading" id="Zw1-Sh-Gec"/>
+                            <constraint firstItem="dni-Nk-6pm" firstAttribute="trailing" secondItem="NQT-Wx-nFR" secondAttribute="trailing" id="cAu-OV-LwC"/>
+                            <constraint firstItem="xd3-cY-NUq" firstAttribute="top" secondItem="dni-Nk-6pm" secondAttribute="bottom" constant="50" id="lgN-3a-MMi"/>
+                            <constraint firstItem="cP2-JY-5bm" firstAttribute="top" secondItem="xd3-cY-NUq" secondAttribute="bottom" constant="50" id="mKI-vX-LyG"/>
+                            <constraint firstItem="cP2-JY-5bm" firstAttribute="leading" secondItem="1cs-LE-bi6" secondAttribute="trailing" constant="50" id="tRf-Fm-GVQ"/>
+                            <constraint firstItem="niT-XB-fey" firstAttribute="leading" secondItem="cP2-JY-5bm" secondAttribute="trailing" constant="50" id="u15-E7-Fp6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真" id="8fl-tG-KtG" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="3g9-P7-ul3"/>
+                        <barButtonItem key="leftBarButtonItem" id="P2f-2x-IQb">
+                            <imageReference key="image" image="cancel" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="cancelButtonAction:" destination="E7p-Id-VcT" id="uVH-QW-D7Y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="cP2-JY-5bm" id="4cb-bh-6Cm"/>
+                        <outlet property="cancelButton" destination="P2f-2x-IQb" id="xW5-30-i0R"/>
+                        <outlet property="changeButton" destination="niT-XB-fey" id="K0j-cO-2h3"/>
+                        <outlet property="flashButton" destination="1cs-LE-bi6" id="kbc-Jk-0nc"/>
+                        <outlet property="gridButton" destination="xd3-cY-NUq" id="Gah-Pw-rE3"/>
+                        <outlet property="gridImage" destination="dni-Nk-6pm" id="7Vo-Zz-SDj"/>
+                        <outlet property="navigationBarTitle" destination="8fl-tG-KtG" id="rsb-N1-GON"/>
+                        <segue destination="Tdp-Jz-gXa" kind="show" identifier="toProfileImageEditView" id="s0v-I5-LeB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWa-3i-dBr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2493" y="2941"/>
+        </scene>
+        <!--toProfileImageEditViewController-->
+        <scene sceneID="1EO-Bn-c57">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ProfileImageEdit" id="Tdp-Jz-gXa" userLabel="toProfileImageEditViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4NK-GJ-fHj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ow-ft-YDa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3067" y="2940"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.triangle.2.circlepath" catalog="system" width="128" height="101"/>
+        <image name="bolt.slash.fill" catalog="system" width="98" height="128"/>
+        <image name="camera" width="106.66666412353516" height="106.66666412353516"/>
+        <image name="cancel" width="44" height="44"/>
+        <image name="grid" width="500" height="500"/>
+        <image name="grid" catalog="system" width="128" height="112"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

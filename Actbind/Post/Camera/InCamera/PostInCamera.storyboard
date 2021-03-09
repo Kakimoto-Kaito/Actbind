@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MLC-Ne-tX7">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--toPostOutCameraViewController-->
+        <scene sceneID="oFp-HB-uwf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PostOutCamera" id="Hd3-r3-g7t" userLabel="toPostOutCameraViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8ON-Rt-wUh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZpE-MV-R1n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="3665"/>
+        </scene>
+        <!--toPostColorViewController-->
+        <scene sceneID="fvU-xC-6Ac">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PostColor" id="GIY-eA-3IL" userLabel="toPostColorViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5KI-I0-s1k"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRu-od-IVn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1571" y="3432"/>
+        </scene>
+        <!--PostInCameraViewController-->
+        <scene sceneID="A11-2K-Bis">
+            <objects>
+                <viewController title="PostInCameraViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="Ab4-YI-MEB" customClass="PostInCameraViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ynH-v7-YaT" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grid" translatesAutoresizingMaskIntoConstraints="NO" id="GTI-vV-ew6">
+                                <rect key="frame" x="0.0" y="88" width="390" height="390"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3w-mN-uEQ">
+                                <rect key="frame" x="147" y="626" width="96" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="W2U-j2-SaB"/>
+                                </constraints>
+                                <state key="normal" image="camera"/>
+                                <connections>
+                                    <action selector="cameraButtonTouchDown:" destination="Ab4-YI-MEB" eventType="touchDown" id="Sbt-Kf-5HH"/>
+                                    <action selector="cameraButtonTouchDragOutside:" destination="Ab4-YI-MEB" eventType="touchDragOutside" id="RWH-V3-UYc"/>
+                                    <action selector="cameraButtonTouchUpInside:" destination="Ab4-YI-MEB" eventType="touchUpInside" id="7MO-xN-nDk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HQ-xZ-yEL">
+                                <rect key="frame" x="171" y="528" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="rlo-dz-DLF"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal" image="grid" catalog="system"/>
+                                <connections>
+                                    <action selector="gridButtonTouchDown:" destination="Ab4-YI-MEB" eventType="touchDown" id="dQ0-3N-tRQ"/>
+                                    <action selector="gridButtonTouchDragOutside:" destination="Ab4-YI-MEB" eventType="touchDragOutside" id="Qlq-jZ-9TZ"/>
+                                    <action selector="gridButtonTouchUpInside:" destination="Ab4-YI-MEB" eventType="touchUpInside" id="puO-0w-K7s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nJ-bw-8UJ">
+                                <rect key="frame" x="49" y="650" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="cSM-Hq-m2P"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="bolt.slash.fill" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="flashButtonTouchDown:" destination="Ab4-YI-MEB" eventType="touchDown" id="Tvr-WR-uZZ"/>
+                                    <action selector="flashButtonTouchDragOutside:" destination="Ab4-YI-MEB" eventType="touchDragOutside" id="elO-BI-Cjl"/>
+                                    <action selector="flashButtonTouchUpInside:" destination="Ab4-YI-MEB" eventType="touchUpInside" id="Quc-8B-jJs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THh-Oz-u0W">
+                                <rect key="frame" x="293" y="650" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="L38-aL-iYu"/>
+                                </constraints>
+                                <color key="tintColor" name="BlackWhite"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="arrow.triangle.2.circlepath" catalog="system" symbolScale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="toOutCameraButtonTouchDown:" destination="Ab4-YI-MEB" eventType="touchDown" id="6N5-ZS-p9Z"/>
+                                    <action selector="toOutCameraButtonTouchDragOutside:" destination="Ab4-YI-MEB" eventType="touchDragOutside" id="J9D-XY-h2Y"/>
+                                    <action selector="toOutCameraButtonTouchUpInside:" destination="Ab4-YI-MEB" eventType="touchUpInside" id="djF-9X-jad"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sj9-sT-MU6"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="x3w-mN-uEQ" firstAttribute="top" secondItem="8HQ-xZ-yEL" secondAttribute="bottom" constant="50" id="1cQ-iV-EbP"/>
+                            <constraint firstItem="THh-Oz-u0W" firstAttribute="width" secondItem="THh-Oz-u0W" secondAttribute="height" multiplier="1:1" id="4nv-N8-jjW"/>
+                            <constraint firstItem="GTI-vV-ew6" firstAttribute="width" secondItem="GTI-vV-ew6" secondAttribute="height" multiplier="1:1" id="8AP-lm-GFM"/>
+                            <constraint firstItem="x3w-mN-uEQ" firstAttribute="width" secondItem="x3w-mN-uEQ" secondAttribute="height" multiplier="1:1" id="DVr-dX-2dH"/>
+                            <constraint firstItem="8HQ-xZ-yEL" firstAttribute="width" secondItem="8HQ-xZ-yEL" secondAttribute="height" multiplier="1:1" id="IaL-fX-5HR"/>
+                            <constraint firstItem="x3w-mN-uEQ" firstAttribute="centerX" secondItem="ynH-v7-YaT" secondAttribute="centerX" id="NJd-Fg-gSB"/>
+                            <constraint firstItem="THh-Oz-u0W" firstAttribute="leading" secondItem="x3w-mN-uEQ" secondAttribute="trailing" constant="50" id="NOX-HO-FSF"/>
+                            <constraint firstItem="8HQ-xZ-yEL" firstAttribute="top" secondItem="GTI-vV-ew6" secondAttribute="bottom" constant="50" id="Usw-HX-gSf"/>
+                            <constraint firstItem="THh-Oz-u0W" firstAttribute="centerY" secondItem="x3w-mN-uEQ" secondAttribute="centerY" id="Xuy-3A-lnI"/>
+                            <constraint firstItem="x3w-mN-uEQ" firstAttribute="leading" secondItem="2nJ-bw-8UJ" secondAttribute="trailing" constant="50" id="dLh-GN-Ft5"/>
+                            <constraint firstItem="GTI-vV-ew6" firstAttribute="leading" secondItem="sj9-sT-MU6" secondAttribute="leading" id="f9T-7m-IYf"/>
+                            <constraint firstItem="8HQ-xZ-yEL" firstAttribute="centerX" secondItem="ynH-v7-YaT" secondAttribute="centerX" id="fei-zo-nuc"/>
+                            <constraint firstItem="GTI-vV-ew6" firstAttribute="top" secondItem="sj9-sT-MU6" secondAttribute="top" id="hON-4Y-Hfq"/>
+                            <constraint firstItem="GTI-vV-ew6" firstAttribute="trailing" secondItem="sj9-sT-MU6" secondAttribute="trailing" id="oRq-ie-7dB"/>
+                            <constraint firstItem="2nJ-bw-8UJ" firstAttribute="centerY" secondItem="x3w-mN-uEQ" secondAttribute="centerY" id="sdr-lV-kOX"/>
+                            <constraint firstItem="2nJ-bw-8UJ" firstAttribute="width" secondItem="2nJ-bw-8UJ" secondAttribute="height" multiplier="1:1" id="yoF-gB-6ez"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真" id="b7t-rY-uDo" userLabel="NavigationBar Title">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="UDp-eS-eoS">
+                            <connections>
+                                <action selector="cancelButton:" destination="Ab4-YI-MEB" id="OYg-je-Z4d"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="x3w-mN-uEQ" id="dhE-To-zSJ"/>
+                        <outlet property="cancelButton" destination="UDp-eS-eoS" id="DmM-d4-mDo"/>
+                        <outlet property="changeButton" destination="THh-Oz-u0W" id="xQ3-OG-emg"/>
+                        <outlet property="flashButton" destination="2nJ-bw-8UJ" id="iS6-VY-tnR"/>
+                        <outlet property="gridButton" destination="8HQ-xZ-yEL" id="Hxs-c0-jBe"/>
+                        <outlet property="gridImage" destination="GTI-vV-ew6" id="RPt-dk-RQi"/>
+                        <outlet property="navigationBarTitle" destination="b7t-rY-uDo" id="zS9-L0-Ans"/>
+                        <segue destination="GIY-eA-3IL" kind="show" identifier="toPostColorViewController" id="75B-bN-5Gz"/>
+                        <segue destination="Hd3-r3-g7t" kind="show" identifier="toBackCameraViewController" animates="NO" id="B0H-Ui-Zbu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JzZ-4i-abG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="3550"/>
+        </scene>
+        <!--PostNavigationController-->
+        <scene sceneID="2Gf-cI-I4X">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="MLC-Ne-tX7" userLabel="PostNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="post mono" selectedImage="post mono" id="Veo-B7-D9e" userLabel="TabBarItem"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aq1-TK-na0">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ab4-YI-MEB" kind="relationship" relationship="rootViewController" id="n7v-cu-acX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APo-Es-mC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="3550"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.triangle.2.circlepath" catalog="system" width="128" height="101"/>
+        <image name="bolt.slash.fill" catalog="system" width="98" height="128"/>
+        <image name="camera" width="106.66666412353516" height="106.66666412353516"/>
+        <image name="cancel" width="44" height="44"/>
+        <image name="grid" catalog="system" width="128" height="112"/>
+        <image name="grid" width="500" height="500"/>
+        <image name="post mono" width="30" height="30"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99607843137254903" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

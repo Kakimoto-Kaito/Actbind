@@ -1,0 +1,197 @@
+//オランダ語
+
+"language" = "Dutch";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Update naar de nieuwe versie";
+"appude-to" = "Bijwerken";
+
+"roguinn" = "Log in";
+"me-ruadoresugatadasikuarimasenn" = "Incorrect E-mailadres";
+"akaunntogaarimasenn" = "Het e-mailadres dat u heeft ingevoerd, lijkt niet bij een account te horen. Controleer uw e-mailadres en probeer het opnieuw.";
+"pasuwa-dogamatigatteimasu" = "Onjuist wachtwoord voor ";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Het ingevoerde wachtwoord is onjuist. Probeer het a.u.b. opnieuw.";
+"mouitidojikkou" = "Probeer het opnieuw";
+"atarasiiakaunntowosakusei" = "Creëer een nieuw account";
+
+"namaewonyuuryoku" = "Wat is je naam?";
+"namae1" = "Voornaam";
+"namae2" = "Achternaam";
+"namaesetumei" = "Als u uw echte naam gebruikt, kunnen uw vrienden u gemakkelijker herkennen.";
+"tugihe" = "De volgende";
+"akaunntowoomotinokata" = "Heb je al een account?";
+
+"me-ruadoresuwonyuuryoku" = "Wat is jouw email adres?";
+"me-ruadoresu" = "E-mailadres";
+"me-ruadoresusetumei" = "Gebruik dit e-mailadres bij het inloggen.";
+"me-ruadoresuera-" = "Gelieve een geldig e-mailadres in te geven.";
+
+"ninnsyouko-dowonyuuryoku" = "Confirmatiecode ingeven";
+"ninnsyouko-do" = "Bevestigingscode";
+"ninnsyouko-dosetumei" = " is verzonden.";
+"ninnsyouko-dorikuesuto" = "Code nogmaals versturen";
+"ninnsyouko-doera-" = "Deze code is ongeldig. Vraag een nieuwe code aan.";
+
+"pasuwa-dowonyuuryoku" = "Maak een paswoord";
+"pasuwa-do" = "Wachtwoord";
+"pasuwa-dosetumei" = "Voer een combinatie van 8 of meer letters en cijfers of symbolen in (zoals! En &).";
+"pasuwa-doera-" = "Voer het juiste wachtwoord in.";
+
+"seibetuwosenntaku" = "Wat is je geslacht?";
+"dannsei" = "Mannetje";
+"jyosei" = "Vrouw";
+"sonota" = "Andere";
+
+"tannjyoubiwosenntaku" = "Wanneer is jouw verjaardag?";
+"tannjyoubi" = "Verjaardag";
+"tannjyoubisetumei" = "Als u uw verjaardag opgeeft, weet u zeker dat u de juiste Actbind-ervaring voor uw leeftijd krijgt.";
+"sai" = " jaar oud";
+"jissainotannjyoubi" = "Voer uw werkelijke geboortedatum in";
+"akaunntowosakuseidekimasenndesita" = "Kan geen account aanmaken";
+"OK" = "OK";
+
+"yu-za-ne-muwonyuuryoku" = "Maak een gebruikersnaam aan";
+"yu-za-ne-mu" = "Gebruikersnaam";
+"yu-za-ne-musetumei" = "Gebruik een combinatie van 5 tot 30 letters van het alfabet, cijfers en onderstrepingstekens (_) om een ​​originele gebruikersnaam te creëren die uw vrienden met u kunnen identificeren.";
+"yu-za-ne-muera-" = "Voer de juiste gebruikersnaam in.";
+"suujidakeera-" = "U kunt niet alleen een gebruikersnaam onder de balk gebruiken.";
+"annda-ba-dakeera-" = "U kunt niet alleen een gebruikersnaam onder de balk gebruiken.";
+
+"tourokukannryou" = "Voltooi het aanmelden";
+"doui" = "Door op Aanmelden te tikken, gaat u akkoord met de Servicevoorwaarden.";
+"riyoukiyaku" = "Servicevoorwaarden";
+"touroku" = "Aanmelden";
+
+"akaunntowosakiseisiteimasu" = "Je account maken ...";
+"actbindheyoukoso" = "Welkom bij Actbind!";
+"hajimeru" = "Begin";
+"akaunntowosakuseidekimasenndesita" = "Kan uw account niet aanmaken";
+"modoru" = "Keer terug";
+
+
+
+
+
+"monndainoarutoukouwohoukoku" = "Meld problematische berichten";
+"kyannseru" = "annuleren";
+"monndainoarutoukouwohoukokuurl" = "https://forms.gle/uNZrmqHghFDgSA8i7";
+"syasinn" = "Foto";
+"kara-wosenntaku" = "Selecteer kleur";
+"toukouwosakusei" = "Post maken";
+"syeasiyou" = "Laten we delen";
+"syasinnnituitenosetumei" = "Voer een beschrijving in voor deze foto ...";
+"jikann" = "Tijd";
+"syea" = "Delen";
+
+"purofi-ru" = "Profiel";
+"purofi-ruwohennsyuu" = "Bewerk profiel";
+"hennsyuu" = "Bewerk";
+"hozonn" = "Opslaan";
+"purofi-rusyasinn" = "Profielfoto";
+"purofi-rusyasinnhennkou" = "Wijzig profielfoto";
+"syasinnwotoru" = "Maak een foto";
+"gennzainosyasinnwosakujyo" = "Verwijder huidige foto";
+"gennzainosyasinnwosakujyosimasuka" = "Wilt u de huidige foto verwijderen?";
+"hennkounaiyousetteityuu" = "Wijzigingen instellen ...";
+"hennkounaiyouhozonn" = "Je veranderingen zijn bewaard";
+"jikosyoukai" = "Zelfintroductie";
+"jikosyoukaiwohennsyuu" = "Zelfintroductie bewerken";
+"jikosyoukaiwonyuuryoku" = "Voer je zelfintroductie in ...";
+"foro-tyuu" = "In aansluiting op";
+"forowa-" = "Volgers";
+
+"menyu-" = "Menu";
+"ohayou" = "Goedemorgen";
+"konnnitiha" = "Hallo";
+"konnbannha" = "Goedenavond";
+"inotiwomamoru" = "Bescherm uw leven";
+"koronauirusunituite" = "Over COVID-19";
+"akuthibithi" = "Uw activiteit";
+"riyoujikann" = "Tijd op Actbind";
+"itinitinoheikinn" = "Dagelijks gemiddelde";
+"jikann" = "uur";
+"funn" = "min";
+"kyou" = "Vandaag";
+"monndaiwohoukoku" = "Meld een probleem";
+"kinouhoukoku" = "Functionele problemen";
+"fi-dobakku" = "Terugkoppeling";
+"kinouhoukokuurl" = "https://forms.gle/Hw6iMBV7TrP8iKTV9";
+"fi-dobakkuurl" = "https://forms.gle/azeT5FysfABET3YF8";
+"dekore-syonn" = "Versieren";
+"orijinaru" = "Origineel";
+"red" = "Rood";
+"orange" = "Oranje";
+"yellow" = "Geel";
+"green" = "Groen";
+"blue" = "Blauw";
+"purple" = "Purper";
+"roguauto" = "Uitloggen";
+"roguautosimasuka" = "Wilt u zich afmelden bij ";
+"ba-jyonn" = "Versie";
+
+"coronauirusunorikoeyou" = "Laten we deze moeilijkheid overwinnen terwijl we elkaar helpen";
+"kuwasiijyouhou" = "Meer informatie vind je hier";
+"kannsenntaisaku" = "Coronavirus-infectiecontrole";
+"mamorou" = "Bescherm uzelf en anderen";
+"tewoarau" = "Was uw handen ijverig";
+"kyoriwotoru" = "Neem de juiste afstand";
+"masukuwosuru" = "Laten we een masker dragen";
+"taionnwohakaru" = "Neem elke dag de lichaamstemperatuur op";
+
+"settei" = "Instellingen";
+"akaunnto" = "Account";
+"puraibasi-" = "Privacy";
+"sekyuritexi" = "Veiligheid";
+"apurinogenngo" = "App-taal";
+"actbindnituite" = "Over Actbind";
+
+"kojinnnojyouhou" = "Persoonsgegevens";
+"namae" = "Naam";
+"rennrakusakijyouhou" = "Contact informatie";
+"seibetu" = "Geslacht";
+"tannjyoubiwohennkoudekinai" = "Verjaardag kan niet worden gewijzigd";
+"kakuninn" = "Bevestiging";
+"atarasiijyouhouhozonn" = "Bewaar nieuwe informatie";
+"atarasiinamae" = "Nieuwe naam";
+"gennzainonamae" = "Huidige naam";
+"gennzainome-ruadoresu" = "je huidige e-mailadres";
+"gennzainoseibetu" = "Huidig ​​geslacht";
+"gennzainotannjyoubi" = "Huidige verjaardag";
+"atarasiime-ruadoresu" = "Nieuw e-mailadres";
+"atarasiiseibetu" = "Nieuw geslacht";
+"atarasiitannjyoubi" = "Nieuwe verjaardag";
+"hozonnpasuwa-do" = "Voer het wachtwoord in om op te slaan";
+"kyannseru" = "annuleren";
+"akaunntokannri" = "Accountbeheer";
+
+"akaunntosakujyo" = "Account verwijderen";
+"sakujyo" = "Verwijderen";
+"akaunntowosakujyotyuu" = "Account verwijderen ...";
+"akaunntogasakujyosaremasita" = "Account is verwijderd";
+"akaunntosakujyosetumei" = "Als u uw account verwijdert, kunt u niet opnieuw inloggen.";
+"sakujyopasuwa-do" = "Voer uw wachtwoord in om te verwijderen";
+"arigatou" = "Hartelijk bedankt";
+"tanosimi" = "Ik kijk er naar uit om je weer te zien";
+
+"puraibasi-akusesujyoukyou" = "Toegang tot privacy-informatie";
+
+"gennzainopasuwa-do" = "Huidig ​​wachtwoord";
+"atarasiipasuwa-do" = "Nieuw paswoord";
+"atarasiipasuwa-domouitidonyuuryoku" = "Nieuw wachtwoord, nogmaals";
+"gennzainopasuwa-dogamatigatteimasu" = "Maak een nieuw wachtwoord aan dat u nog niet eerder hebt gebruikt.";
+"pasuwa-dogaittisimasenn" = "Wachtwoorden komen niet overeen.";
+
+"syasinnwohozonn" = "Bewaar foto's";
+"syasinnwohozonnsetumei" = "Sla de foto's die u maakt automatisch op in uw filmrol.";
+
+"puraibasi-porisi-" = "Privacybeleid";
+"raisensu" = "Licenties";
+
+"suubyoumae" = "Net nu";
+"funnmae" = "%@ minuut geleden";
+"fukusuufunnmae" = "%@ minuten geleden";
+"jikannmae" = "%@ uur geleden";
+"fukusuujikannmae" = "%@ uur geleden";
+"nitimae" = "%@ dag geleden";
+"fukusuunitimae" = "%@ dagen geleden";

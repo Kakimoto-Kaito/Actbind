@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ubh-fR-vqp">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignUpConfirmationCode View Controller-->
+        <scene sceneID="hV9-cZ-lRo">
+            <objects>
+                <viewController storyboardIdentifier="SignUpIdentityVerificationCodeView" title="SignUpIdentityVerificationCode View Controller" modalPresentationStyle="fullScreen" id="Ubh-fR-vqp" userLabel="SignUpConfirmationCode View Controller" customClass="SignUpConfirmationCodeViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XQz-Gf-757" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="認証コードを入力" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDi-Jp-fXv" userLabel="SignUpConfirmationCodeTitle Label">
+                                <rect key="frame" x="113.33333333333333" y="144" width="163.33333333333337" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="に送信された認証コードを入力してください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nN-Ys-llC" userLabel="ConfirmationCodeExplanation Label">
+                                <rect key="frame" x="20" y="188" width="350" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjq-j1-JLc" userLabel="ConfirmationCodeRequest Button">
+                                <rect key="frame" x="141" y="206" width="108" height="30"/>
+                                <state key="normal" title="コードを再送信">
+                                    <color key="titleColor" name="Blue"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmationCodeRequestButtonTouchDown:" destination="Ubh-fR-vqp" eventType="touchDown" id="mEt-fN-nuj"/>
+                                    <action selector="confirmationCodeRequestButtonTouchDragOutside:" destination="Ubh-fR-vqp" eventType="touchDragOutside" id="NUP-hr-U8B"/>
+                                    <action selector="confirmationCodeRequestButtonTouchUpInside:" destination="Ubh-fR-vqp" eventType="touchUpInside" id="oCx-7C-dMD"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="認証コード" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-uV-wL1" userLabel="ConfirmationCode TextField">
+                                <rect key="frame" x="20" y="244" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="BYw-xd-jYf"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="ConfirmationCodeTextFieldDidEndOnExit:" destination="Ubh-fR-vqp" eventType="editingDidEndOnExit" id="3p8-j3-Bf5"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingChanged:" destination="Ubh-fR-vqp" eventType="editingChanged" id="AXk-jN-UVC"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingDidBegin:" destination="Ubh-fR-vqp" eventType="editingDidBegin" id="5dn-bt-FyR"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingDidEnd:" destination="Ubh-fR-vqp" eventType="editingDidEnd" id="NfJ-fb-LNf"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9c-F4-K3B">
+                                <rect key="frame" x="20" y="342" width="350" height="48"/>
+                                <color key="backgroundColor" name="EnabledButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Ir6-Sh-g9u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleColor" name="EnabledButtonText"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButtonTouchDown:" destination="Ubh-fR-vqp" eventType="touchDown" id="HcZ-NP-hVj"/>
+                                    <action selector="nextButtonTouchDragOutside:" destination="Ubh-fR-vqp" eventType="touchDragOutside" id="29V-54-M1Y"/>
+                                    <action selector="nextButtonTouchUpInside:" destination="Ubh-fR-vqp" eventType="touchUpInside" id="qcZ-zK-7eG"/>
+                                </connections>
+                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fsd-l6-2jX">
+                                <rect key="frame" x="0.0" y="761" width="390" height="49"/>
+                                <color key="backgroundColor" name="WhiteBlack"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Axk-GH-iOJ"/>
+                                    <barButtonItem title="すでにアカウントをお持ちの方はこちらへ" id="h64-WP-69x" userLabel="HaveAccount Button">
+                                        <connections>
+                                            <action selector="haveAccountButton:" destination="Ubh-fR-vqp" id="deb-h2-Wiw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xpR-5Y-zAd"/>
+                                </items>
+                                <color key="tintColor" name="Blue"/>
+                                <color key="barTintColor" name="WhiteBlack"/>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Stq-eB-K95" userLabel="Error View">
+                                <rect key="frame" x="20" y="681" width="350" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="アセット 375" translatesAutoresizingMaskIntoConstraints="NO" id="gIv-bC-QwS" userLabel="Error Image">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="tintColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="798-2c-IgB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gM-lZ-fRp">
+                                        <rect key="frame" x="60" y="21" width="275" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Pink"/>
+                                <constraints>
+                                    <constraint firstItem="6gM-lZ-fRp" firstAttribute="leading" secondItem="gIv-bC-QwS" secondAttribute="trailing" constant="15" id="3cI-8L-vdB"/>
+                                    <constraint firstItem="gIv-bC-QwS" firstAttribute="top" secondItem="Stq-eB-K95" secondAttribute="top" constant="15" id="6lx-r6-4cc"/>
+                                    <constraint firstItem="gIv-bC-QwS" firstAttribute="leading" secondItem="Stq-eB-K95" secondAttribute="leading" constant="15" id="E1S-V2-4rb"/>
+                                    <constraint firstItem="gIv-bC-QwS" firstAttribute="width" secondItem="gIv-bC-QwS" secondAttribute="height" multiplier="1:1" id="HaI-QC-GE3"/>
+                                    <constraint firstItem="6gM-lZ-fRp" firstAttribute="centerY" secondItem="gIv-bC-QwS" secondAttribute="centerY" id="UMx-sq-N8M"/>
+                                    <constraint firstAttribute="height" constant="60" id="ZKw-ww-LLD"/>
+                                    <constraint firstAttribute="bottom" secondItem="gIv-bC-QwS" secondAttribute="bottom" constant="15" id="fl6-tU-FVE"/>
+                                    <constraint firstAttribute="trailing" secondItem="6gM-lZ-fRp" secondAttribute="trailing" constant="15" id="zc2-bs-inT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IZR-Ot-8Lc"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Stq-eB-K95" firstAttribute="leading" secondItem="IZR-Ot-8Lc" secondAttribute="leading" constant="20" id="0Ld-u0-5dS"/>
+                            <constraint firstItem="vjq-j1-JLc" firstAttribute="top" secondItem="2nN-Ys-llC" secondAttribute="bottom" id="2Jg-4w-fM7"/>
+                            <constraint firstItem="C9c-F4-K3B" firstAttribute="top" secondItem="GZ7-uV-wL1" secondAttribute="bottom" constant="50" id="2fE-xW-WH5"/>
+                            <constraint firstItem="Fsd-l6-2jX" firstAttribute="bottom" secondItem="IZR-Ot-8Lc" secondAttribute="bottom" id="3d9-jI-yFp"/>
+                            <constraint firstItem="2nN-Ys-llC" firstAttribute="top" secondItem="sDi-Jp-fXv" secondAttribute="bottom" constant="20" id="5DE-Py-sxX"/>
+                            <constraint firstItem="GZ7-uV-wL1" firstAttribute="top" secondItem="vjq-j1-JLc" secondAttribute="bottom" constant="8" symbolic="YES" id="HT5-W8-jNJ"/>
+                            <constraint firstItem="sDi-Jp-fXv" firstAttribute="centerX" secondItem="XQz-Gf-757" secondAttribute="centerX" id="OSM-qb-aTw"/>
+                            <constraint firstItem="Fsd-l6-2jX" firstAttribute="trailing" secondItem="IZR-Ot-8Lc" secondAttribute="trailing" id="OlJ-9C-05n"/>
+                            <constraint firstItem="IZR-Ot-8Lc" firstAttribute="trailing" secondItem="Stq-eB-K95" secondAttribute="trailing" constant="20" id="SOG-3V-07J"/>
+                            <constraint firstItem="IZR-Ot-8Lc" firstAttribute="trailing" secondItem="GZ7-uV-wL1" secondAttribute="trailing" constant="20" id="WgI-ar-ydr"/>
+                            <constraint firstItem="IZR-Ot-8Lc" firstAttribute="trailing" secondItem="C9c-F4-K3B" secondAttribute="trailing" constant="20" id="asf-O8-2LY"/>
+                            <constraint firstItem="GZ7-uV-wL1" firstAttribute="leading" secondItem="IZR-Ot-8Lc" secondAttribute="leading" constant="20" id="eFx-qf-ulw"/>
+                            <constraint firstItem="2nN-Ys-llC" firstAttribute="leading" secondItem="IZR-Ot-8Lc" secondAttribute="leading" constant="20" id="hrp-Uu-7Gw"/>
+                            <constraint firstItem="vjq-j1-JLc" firstAttribute="centerX" secondItem="XQz-Gf-757" secondAttribute="centerX" id="iBA-Mw-tkC"/>
+                            <constraint firstItem="Fsd-l6-2jX" firstAttribute="leading" secondItem="IZR-Ot-8Lc" secondAttribute="leading" id="iWQ-Xc-zui"/>
+                            <constraint firstItem="IZR-Ot-8Lc" firstAttribute="trailing" secondItem="2nN-Ys-llC" secondAttribute="trailing" constant="20" id="jyc-gV-uvR"/>
+                            <constraint firstAttribute="bottom" secondItem="Stq-eB-K95" secondAttribute="bottom" constant="103" id="rXW-gy-ek0"/>
+                            <constraint firstItem="C9c-F4-K3B" firstAttribute="leading" secondItem="IZR-Ot-8Lc" secondAttribute="leading" constant="20" id="u3d-z2-0xE"/>
+                            <constraint firstItem="sDi-Jp-fXv" firstAttribute="top" secondItem="IZR-Ot-8Lc" secondAttribute="top" constant="100" id="v7j-rZ-zXZ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6IP-c2-eo8" appends="YES" id="188-7R-Co4"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="IBU-x0-gUJ"/>
+                    <connections>
+                        <outlet property="confirmationCodeExplanationLabel" destination="2nN-Ys-llC" id="c3l-ew-CpB"/>
+                        <outlet property="confirmationCodeRequestButton" destination="vjq-j1-JLc" id="8vD-n2-img"/>
+                        <outlet property="confirmationCodeTextField" destination="GZ7-uV-wL1" id="VSF-Qv-EpU"/>
+                        <outlet property="errorLabel" destination="6gM-lZ-fRp" id="hJX-u8-2Xn"/>
+                        <outlet property="errorView" destination="Stq-eB-K95" id="UKr-Ar-jeK"/>
+                        <outlet property="errorViewBottom" destination="rXW-gy-ek0" id="RoU-xg-EZ9"/>
+                        <outlet property="haveAccountButton" destination="h64-WP-69x" id="a4p-t3-RgY"/>
+                        <outlet property="nextButton" destination="C9c-F4-K3B" id="b33-EN-j2X"/>
+                        <outlet property="nextButtonLeft" destination="u3d-z2-0xE" id="wfk-s8-hsa"/>
+                        <outlet property="nextButtonRight" destination="asf-O8-2LY" id="7sy-lD-QY5"/>
+                        <outlet property="signUpConfirmationCodeTitleLabel" destination="sDi-Jp-fXv" id="h1L-Je-qDw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A3d-ox-SfF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="6IP-c2-eo8">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="screenEdgePanGestureAction:" destination="Ubh-fR-vqp" id="geE-vf-Z7F"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-3009" y="3295"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="アセット 375" width="32.333332061767578" height="32.333332061767578"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButton">
+            <color red="0.77300000190734863" green="0.77300000190734863" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButtonText">
+            <color red="0.89399999380111694" green="0.89399999380111694" blue="0.90200001001358032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.17599999904632568" blue="0.33300000429153442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

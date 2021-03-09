@@ -1,0 +1,197 @@
+//アラビア語
+
+"language" = "Arabic";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "يرجى التحديث إلى الإصدار الجديد";
+"appude-to" = "تحديث";
+
+"roguinn" = "تسجيل الدخول";
+"me-ruadoresugatadasikuarimasenn" = "عنوان البريد الألكتروني غير صحيح";
+"akaunntogaarimasenn" = "يبدو أن عنوان البريد الإلكتروني الذي أدخلته لا ينتمي إلى حساب. يرجى التحقق من عنوان بريدك الإلكتروني وحاول مرة أخرى.";
+"pasuwa-dogamatigatteimasu" = "كلمة مرور غير صحيحة لـ ";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "كلمة المرور التي أدخلتها غير صحيحة. حاول مرة اخرى.";
+"mouitidojikkou" = "حاول مرة أخري";
+"atarasiiakaunntowosakusei" = "انشاء حساب جديد";
+
+"namaewonyuuryoku" = "ما هو اسمك؟";
+"namae1" = "اسم العائلة";
+"namae2" = "الاسم الاول";
+"namaesetumei" = "استخدام اسمك الحقيقي يجعل من السهل على أصدقائك التعرف عليك.";
+"tugihe" = "التالي";
+"akaunntowoomotinokata" = "هل لديك حساب؟";
+
+"me-ruadoresuwonyuuryoku" = "ما هو عنوان بريدك الالكترونى؟";
+"me-ruadoresu" = "عنوان البريد الالكترونى";
+"me-ruadoresusetumei" = "استخدم عنوان البريد الإلكتروني هذا عند تسجيل الدخول.";
+"me-ruadoresuera-" = "رجاء قم بإدخال بريد الكتروني صحيح.";
+
+"ninnsyouko-dowonyuuryoku" = "أدخل رمز التأكيد";
+"ninnsyouko-do" = "رمز التأكيد";
+"ninnsyouko-dosetumei" = "أدخل رمز التأكيد الذي أرسلناه إلى ";
+"ninnsyouko-dorikuesuto" = "أعد إرسال الرمز";
+"ninnsyouko-doera-" = "هذا الرمز غير صالح. الرجاء طلب رمز جديد.";
+
+"pasuwa-dowonyuuryoku" = "إنشاء كلمة مرور";
+"pasuwa-do" = "كلمه السر";
+"pasuwa-dosetumei" = "أدخل مجموعة مكونة من 8 أحرف وأرقام أو رموز أو أكثر (مثل! و &).";
+"pasuwa-doera-" = "الرجاء إدخال كلمة المرور الصحيحة.";
+
+"seibetuwosenntaku" = "ما هو جنسك؟";
+"dannsei" = "الذكر";
+"jyosei" = "أنثى";
+"sonota" = "آخر";
+
+"tannjyoubiwosenntaku" = "ما هو عيد ميلادك؟";
+"tannjyoubi" = "عيد الميلاد";
+"tannjyoubisetumei" = "يساعد تقديم عيد ميلادك في التأكّد من حصولك على تجربة Actbind المناسبة لعمرك.";
+"sai" = " سنة";
+"jissainotannjyoubi" = "الرجاء إدخال تاريخ ميلادك الفعلي";
+"akaunntowosakuseidekimasenndesita" = "تعذر إنشاء حساب";
+"OK" = "حسنا";
+
+"yu-za-ne-muwonyuuryoku" = "قم بإنشاء اسم مستخدم";
+"yu-za-ne-mu" = "اسم االمستخدم";
+"yu-za-ne-musetumei" = "استخدم مزيجًا من 5 إلى 30 حرفًا من الأبجدية والأرقام والشرطات السفلية (_) لإنشاء اسم مستخدم أصلي يمكن لأصدقائك التعرف عليه معك.";
+"yu-za-ne-muera-" = "الرجاء إدخال اسم المستخدم الصحيح.";
+"suujidakeera-" = "لا يمكنك استخدام اسم مستخدم مع أرقام فقط.";
+"annda-ba-dakeera-" = "لا يمكنك استخدام اسم مستخدم فقط _.";
+
+"tourokukannryou" = "قم بإنهاء التسجيل";
+"doui" = "بالنقر فوق تسجيل ، فإنك توافق على شروط الخدمة.";
+"riyoukiyaku" = "شروط الخدمة";
+"touroku" = "سجل";
+
+"akaunntowosakiseisiteimasu" = "إنشاء حسابك ...";
+"actbindheyoukoso" = "مرحبًا بك في Actbind!";
+"hajimeru" = "بداية";
+"akaunntowosakuseidekimasenndesita" = "تعذر إنشاء حسابك";
+"modoru" = "إرجاع";
+
+
+
+
+
+"monndainoarutoukouwohoukoku" = "الإبلاغ عن مشاركات إشكالية";
+"kyannseru" = "إلغاء";
+"monndainoarutoukouwohoukokuurl" = "https://forms.gle/sXQfSDMgXbD3oybb9";
+"syasinn" = "صورة فوتوغرافية";
+"kara-wosenntaku" = "إختر لون";
+"toukouwosakusei" = "قم بإنشاء منشور";
+"syeasiyou" = "دعنا نتشارك";
+"syasinnnituitenosetumei" = "أدخل وصفًا لهذه الصورة ...";
+"jikann" = "زمن";
+"syea" = "شارك";
+
+"purofi-ru" = "الملف الشخصي";
+"purofi-ruwohennsyuu" = "تعديل الملف الشخصي";
+"hennsyuu" = "تعديل";
+"hozonn" = "حفظ";
+"purofi-rusyasinn" = "صورة الملف الشخصي";
+"purofi-rusyasinnhennkou" = "تغيير صورة الملف الشخصي";
+"syasinnwotoru" = "تصوير";
+"gennzainosyasinnwosakujyo" = "ازل الصوره الحاليه";
+"gennzainosyasinnwosakujyosimasuka" = "هل تريد إزالة الصورة الحالية؟";
+"hennkounaiyousetteityuu" = "تعيين التغييرات ...";
+"hennkounaiyouhozonn" = "تم حفظ التغييرات";
+"jikosyoukai" = "عرف نفسك قدم نفسك";
+"jikosyoukaiwohennsyuu" = "تحرير المقدمة الذاتية";
+"jikosyoukaiwonyuuryoku" = "أدخل المقدمة الذاتية الخاصة بك ...";
+"foro-tyuu" = "التالية";
+"forowa-" = "تابع";
+
+"menyu-" = "قائمة طعام";
+"ohayou" = "صباح الخير";
+"konnnitiha" = "مرحبا";
+"konnbannha" = "مساء الخير";
+"inotiwomamoru" = "احمِ حياتك";
+"koronauirusunituite" = "حول COVID-19";
+"akuthibithi" = "نشاطك";
+"riyoujikann" = "الوقت على Actbind";
+"itinitinoheikinn" = "المتوسط ​​اليومي";
+"jikann" = "ساعة";
+"funn" = "دقيقة";
+"kyou" = "اليوم";
+"monndaiwohoukoku" = "الإبلاغ عن مشكلة";
+"kinouhoukoku" = "القضايا الوظيفية";
+"fi-dobakku" = "ردود الفعل";
+"kinouhoukokuurl" = "https://forms.gle/Hn95p6ACfFbpsv1X6";
+"fi-dobakkuurl" = "https://forms.gle/R7y4hNQtQuSbt2sM7";
+"dekore-syonn" = "تزيين";
+"orijinaru" = "أصلي";
+"red" = "أحمر";
+"orange" = "البرتقالي";
+"yellow" = "الأصفر";
+"green" = "أخضر";
+"blue" = "أزرق";
+"purple" = "أرجواني";
+"roguauto" = "تسجيل خروج";
+"roguautosimasuka" = "هل تريد تسجيل الخروج من ";
+"ba-jyonn" = "الإصدار ";
+
+"coronauirusunorikoeyou" = "دعونا نتغلب على هذه الصعوبة بينما نساعد بعضنا البعض";
+"kuwasiijyouhou" = "مزيد من المعلومات هنا";
+"kannsenntaisaku" = "السيطرة على عدوى فيروس كورونا";
+"mamorou" = "احم نفسك والآخرين";
+"tewoarau" = "اغسل يديك بجد";
+"kyoriwotoru" = "خذ المسافة الصحيحة";
+"masukuwosuru" = "دعونا نرتدي قناعا";
+"taionnwohakaru" = "قس درجة حرارة الجسم كل يوم";
+
+"settei" = "إعدادات";
+"akaunnto" = "الحساب";
+"puraibasi-" = "خصوصية";
+"sekyuritexi" = "الأمان";
+"apurinogenngo" = "لغة التطبيق";
+"actbindnituite" = "حول Actbind";
+
+"kojinnnojyouhou" = "معلومات شخصية";
+"namae"  = "اسم";
+"rennrakusakijyouhou" = "معلومات الاتصال";
+"seibetu" = "جنس";
+"tannjyoubiwohennkoudekinai" = "لا يمكن تغيير تاريخ الميلاد";
+"kakuninn" = "التأكيد";
+"atarasiijyouhouhozonn" = "حفظ المعلومات الجديدة";
+"gennzainonamae" = "الاسم الحالي";
+"gennzainome-ruadoresu" = "عنوان بريدك الإلكتروني الحالي";
+"gennzainoseibetu" = "الجنس الحالي";
+"gennzainotannjyoubi" = "عيد الميلاد الحالي";
+"atarasiinamae" = "اسم جديد";
+"atarasiime-ruadoresu" = "عنوان بريد جديد";
+"atarasiiseibetu" = "جنس جديد";
+"atarasiitannjyoubi" = "عيد ميلاد جديد";
+"hozonnpasuwa-do" = "الرجاء إدخال كلمة المرور للحفظ";
+"kyannseru" = "إلغاء";
+"akaunntokannri" = "ادارة الحساب";
+
+"akaunntosakujyo" = "حذف الحساب";
+"sakujyo" = "حذف";
+"akaunntowosakujyotyuu" = "جارٍ حذف الحساب ...";
+"akaunntogasakujyosaremasita" = "تم حذف الحساب";
+"akaunntosakujyosetumei" = "إذا قمت بحذف حسابك ، فلن تتمكن من تسجيل الدخول مرة أخرى.";
+"sakujyopasuwa-do" = "الرجاء إدخال كلمة المرور الخاصة بك للحذف";
+"arigatou" = "شكرا جزيلا";
+"tanosimi" = "أتطلع إلى رؤيتك مجددا";
+
+"puraibasi-akusesujyoukyou" = "الوصول إلى معلومات الخصوصية";
+
+"gennzainopasuwa-do" = "كلمة المرور الحالي";
+"atarasiipasuwa-do" = "كلمة مرور جديدة";
+"atarasiipasuwa-domouitidonyuuryoku" = "كلمة مرور جديدة مرة أخرى";
+"gennzainopasuwa-dogamatigatteimasu" = "أنشئ كلمة مرور جديدة لم تستخدمها من قبل.";
+"pasuwa-dogaittisimasenn" = "كلمة المرور غير مطابقة.";
+
+"syasinnwohozonn" = "حفظ الصور";
+"syasinnwohozonnsetumei" = "احفظ الصور التي تلتقطها في ألبوم الكاميرا تلقائيًا.";
+
+"puraibasi-porisi-" = "سياسة خاصة";
+"raisensu" = "التراخيص";
+
+"suubyoumae" = "الآن فقط";
+"funnmae" = "منذ %@ دقيقة";
+"fukusuufunnmae" = "منذ %@ دقيقة";
+"jikannmae" = "منذ %@ ساعة";
+"fukusuujikannmae" = "منذ %@ ساعات";
+"nitimae" = "%@ منذ يوم";
+"fukusuunitimae" = "%@ منذ أيام";

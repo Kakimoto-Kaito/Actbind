@@ -1,0 +1,197 @@
+//ロシア語
+
+"language" = "Russian";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Пожалуйста, обновите до новой версии";
+"appude-to" = "Обновлять";
+
+"roguinn" = "Авторизоваться";
+"me-ruadoresugatadasikuarimasenn" = "Неверный адрес электронной почты";
+"akaunntogaarimasenn" = "Введенный вами адрес электронной почты не принадлежит учетной записи. Пожалуйста, проверьте свой адрес электронной почты и попробуйте еще раз.";
+"pasuwa-dogamatigatteimasu" = "Неверный пароль для ";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Вы ввели неверный пароль. Пожалуйста, попробуйте еще раз.";
+"mouitidojikkou" = "Попробуй снова";
+"atarasiiakaunntowosakusei" = "Создать новый аккаунт";
+
+"namaewonyuuryoku" = "Какое у тебя имя?";
+"namae1" = "Имя";
+"namae2" = "Фамилия";
+"namaesetumei" = "Использование вашего настоящего имени позволяет вашим друзьям узнать вас.";
+"tugihe" = "Следующий";
+"akaunntowoomotinokata" = "Уже есть аккаунт?";
+
+"me-ruadoresuwonyuuryoku" = "Какой у вас электронный адрес?";
+"me-ruadoresu" = "Адрес электронной почты";
+"me-ruadoresusetumei" = "Используйте этот адрес электронной почты при входе в систему.";
+"me-ruadoresuera-" = "Пожалуйста, введите действительный адрес электронной почты.";
+
+"ninnsyouko-dowonyuuryoku" = "Введите код подтверждения";
+"ninnsyouko-do" = "Код для подтверждения";
+"ninnsyouko-dosetumei" = "Введите код подтверждения, который мы отправили в ";
+"ninnsyouko-dorikuesuto" = "Отправить код еще раз";
+"ninnsyouko-doera-" = "Этот код недействителен. Запросите новый код.";
+
+"pasuwa-dowonyuuryoku" = "Создать пароль";
+"pasuwa-do" = "пароль";
+"pasuwa-dosetumei" = "Введите комбинацию из 8 или более букв и цифр или символов (например,! И &).";
+"pasuwa-doera-" = "Пожалуйста, введите правильный пароль.";
+
+"seibetuwosenntaku" = "Какого вы пола?";
+"dannsei" = "мужчина";
+"jyosei" = "женский";
+"sonota" = "Другой";
+
+"tannjyoubiwosenntaku" = "Когда твой день рождения?";
+"tannjyoubi" = "День рождения";
+"tannjyoubisetumei" = "Указав дату своего рождения, вы убедитесь, что получаете доступ к Actbind, соответствующий вашему возрасту.";
+"sai" = " год";
+"jissainotannjyoubi" = "Пожалуйста, введите ваш настоящий день рождения";
+"akaunntowosakuseidekimasenndesita" = "Не удалось создать учетную запись";
+"OK" = "ОК";
+
+"yu-za-ne-muwonyuuryoku" = "Создать имя пользователя";
+"yu-za-ne-mu" = "Имя пользователя";
+"yu-za-ne-musetumei" = "Используйте комбинацию из 5–30 букв алфавита, цифр и знаков подчеркивания (_), чтобы создать оригинальное имя пользователя, которое ваши друзья смогут идентифицировать с вами.";
+"yu-za-ne-muera-" = "Пожалуйста, введите правильное имя пользователя.";
+"suujidakeera-" = "Вы не можете использовать имя пользователя только с числами.";
+"annda-ba-dakeera-" = "Вы не можете использовать имя пользователя только для подчеркивания.";
+
+"tourokukannryou" = "Завершить регистрацию";
+"doui" = "Нажимая «Зарегистрироваться», вы соглашаетесь с Условиями использования.";
+"riyoukiyaku" = "Условия использования";
+"touroku" = "Зарегистрироваться";
+
+"akaunntowosakiseisiteimasu" = "Создание учетной записи ...";
+"actbindheyoukoso" = "Добро пожаловать в Actbind!";
+"hajimeru" = "Начните";
+"akaunntowosakuseidekimasenndesita" = "Не удалось создать учетную запись";
+"modoru" = "Вернуть";
+
+
+
+
+
+"monndainoarutoukouwohoukoku" = "Сообщить о проблемных сообщениях";
+"kyannseru" = "Отмена";
+"monndainoarutoukouwohoukokuurl" = "https://forms.gle/bXMaUbTGHCZCzVUD9";
+"syasinn" = "Фото";
+"kara-wosenntaku" = "Выбрать цвет";
+"toukouwosakusei" = "Создать сообщение";
+"syeasiyou" = "Давайте поделимся";
+"syasinnnituitenosetumei" = "Введите описание этой фотографии ...";
+"jikann" = "Время";
+"syea" = "доля";
+
+"purofi-ru" = "Профиль";
+"purofi-ruwohennsyuu" = "Редактировать профиль";
+"hennsyuu" = "редактировать";
+"hozonn" = "Сохранить";
+"purofi-rusyasinn" = "Аватар";
+"purofi-rusyasinnhennkou" = "Изменить фото профиля";
+"syasinnwotoru" = "Фотографировать";
+"gennzainosyasinnwosakujyo" = "Удалить текущую фотографию";
+"gennzainosyasinnwosakujyosimasuka" = "Вы хотите удалить текущую фотографию?";
+"hennkounaiyousetteityuu" = "Изменения настроек ...";
+"hennkounaiyouhozonn" = "Ваши изменения были сохранены";
+"jikosyoukai" = "Био";
+"jikosyoukaiwohennsyuu" = "Редактировать биографию";
+"jikosyoukaiwonyuuryoku" = "Введите биографию ...";
+"foro-tyuu" = "Следующий";
+"forowa-" = "Подписчики";
+
+"menyu-" = "Меню";
+"ohayou" = "Доброе утро";
+"konnnitiha" = "Добрый день";
+"konnbannha" = "Добрый вечер";
+"inotiwomamoru" = "Защити свою жизнь";
+"koronauirusunituite" = "О COVID-19";
+"akuthibithi" = "Ваша активность";
+"riyoujikann" = "Время на Actbind";
+"itinitinoheikinn" = "Среднесуточное значение";
+"jikann" = "час";
+"funn" = "м";
+"kyou" = "сегодня";
+"monndaiwohoukoku" = "Сообщить о проблеме";
+"kinouhoukoku" = "Функциональные проблемы";
+"fi-dobakku" = "Обратная связь";
+"kinouhoukokuurl" = "https://forms.gle/J14hfm67gtWdn3jH7";
+"fi-dobakkuurl" = "https://forms.gle/C8yqBAuyfMYk8XKE9";
+"dekore-syonn" = "Украсить";
+"orijinaru" = "Оригинал";
+"red" = "Красный";
+"orange" = "оранжевый";
+"yellow" = "Желтый";
+"green" = "Зеленый";
+"blue" = "Синий";
+"purple" = "Фиолетовый";
+"roguauto" = "Выйти";
+"roguautosimasuka" = "Вы хотите выйти из ";
+"ba-jyonn" = "Версия ";
+
+"coronauirusunorikoeyou" = "Давайте преодолеем эту трудность, помогая друг другу";
+"kuwasiijyouhou" = "Более подробная информация здесь";
+"kannsenntaisaku" = "Борьба с коронавирусной инфекцией";
+"mamorou" = "Защитите себя и других";
+"tewoarau" = "Тщательно мойте руки";
+"kyoriwotoru" = "Выбери правильное расстояние";
+"masukuwosuru" = "Давай наденем маску";
+"taionnwohakaru" = "Измеряйте температуру тела каждый день";
+
+"settei" = "Настройки";
+"akaunnto" = "учетная запись";
+"puraibasi-" = "Конфиденциальность";
+"sekyuritexi" = "Безопасность";
+"apurinogenngo" = "Язык приложения";
+"actbindnituite" = "О Actbind";
+
+"kojinnnojyouhou" = "Персональная информация";
+"namae" = "имя";
+"rennrakusakijyouhou" = "Контактная информация";
+"seibetu" = "Пол";
+"tannjyoubiwohennkoudekinai" = "Не удалось изменить день рождения";
+"kakuninn" = "Подтверждение";
+"atarasiijyouhouhozonn" = "Сохранить новую информацию";
+"gennzainonamae" = "Нынешнее название";
+"gennzainome-ruadoresu" = "Текущий адрес электронной почты";
+"gennzainoseibetu" = "Текущий пол";
+"gennzainotannjyoubi" = "Текущий день рождения";
+"atarasiinamae" = "Новое имя";
+"atarasiime-ruadoresu" = "Новый почтовый адрес";
+"atarasiiseibetu" = "Новый пол";
+"atarasiitannjyoubi" = "Новый день рождения";
+"hozonnpasuwa-do" = "Пожалуйста, введите пароль для сохранения";
+"kyannseru" = "Отмена";
+"akaunntokannri" = "Управление аккаунтом";
+
+"akaunntosakujyo" = "Удаление аккаунта";
+"sakujyo" = "Удалить";
+"akaunntowosakujyotyuu" = "Удаление учетной записи ...";
+"akaunntogasakujyosaremasita" = "Аккаунт удален";
+"akaunntosakujyosetumei" = "Если вы удалите свою учетную запись, вы не сможете войти снова.";
+"sakujyopasuwa-do" = "Пожалуйста, введите свой пароль для удаления";
+"arigatou" = "Большое спасибо вам";
+"tanosimi" = "Я с нетерпением жду встречи с вами снова";
+
+"puraibasi-akusesujyoukyou" = "Доступ к информации о конфиденциальности";
+
+"gennzainopasuwa-do" = "Текущий пароль";
+"atarasiipasuwa-do" = "Новый пароль";
+"atarasiipasuwa-domouitidonyuuryoku" = "Новый пароль еще раз";
+"gennzainopasuwa-dogamatigatteimasu" = "Создайте новый пароль, который он раньше не использовал.";
+"pasuwa-dogaittisimasenn" = "Пароли не совпадают.";
+
+"syasinnwohozonn" = "Сохранить фото";
+"syasinnwohozonnsetumei" = "Автоматически сохраняйте сделанные фотографии в фотопленку.";
+
+"puraibasi-porisi-" = "Политика конфиденциальности";
+"raisensu" = "Лицензии";
+
+"suubyoumae" = "Прямо сейчас";
+"funnmae" = "%@ минуту назад";
+"fukusuufunnmae" = "%@ минуты назад";
+"jikannmae" = "%@ час назад";
+"fukusuujikannmae" = "%@ часа назад";
+"nitimae" = "%@ день назад";
+"fukusuunitimae" = "%@ дня назад";
