@@ -31,14 +31,23 @@ extension Date {
         if diffSec < minute {
             result = NSLocalizedString("suubyoumae", comment: "")
         } else if diffSec < hour {
-            result = String(format: NSLocalizedString("funnmae", comment: ""), "\(diffSec / minute)")
-            
+            if (diffSec / minute) == 1 {
+                result = String(format: NSLocalizedString("funnmae", comment: ""), "\(diffSec / minute)")
+            } else {
+                result = String(format: NSLocalizedString("fukusuufunnmae", comment: ""), "\(diffSec / minute)")
+            }
         } else if diffSec < day {
-            result = String(format: NSLocalizedString("jikannmae", comment: ""), "\(diffSec / hour)")
-            
+            if (diffSec / hour) == 1 {
+                result = String(format: NSLocalizedString("jikannmae", comment: ""), "\(diffSec / hour)")
+            } else {
+                result = String(format: NSLocalizedString("fukusuujikannmae", comment: ""), "\(diffSec / hour)")
+            }
         } else if diffSec < week {
-            result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
-            
+            if (diffSec / day) == 1 {
+                result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
+            } else {
+                result = String(format: NSLocalizedString("fukusuunitimae", comment: ""), "\(diffSec / day)")
+            }
         } else {
             let dateFormatter = DateFormatter()
             
