@@ -8,12 +8,17 @@
 import UIKit
 
 final class PostTableViewCell: UITableViewCell {
+    let userDefaults = UserDefaults(suiteName: "group.com.actbind")
+    
     @IBOutlet weak var userProfileImage: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var postColor: UIView!
     @IBOutlet weak var postTextLabel: UILabel!
     @IBOutlet weak var postImage: UIImageView!
+    @IBOutlet weak var heartButton: UIButton!
     @IBOutlet weak var postDateLabel: UILabel!
+    
+    var heart = "Off"
     
     // ダミーのAPI
     var post: Post! {
@@ -55,6 +60,19 @@ final class PostTableViewCell: UITableViewCell {
         postImage.image = post.postImage
         postImage.layer.cornerRadius = 15
         
+        if let userDefaults = userDefaults {
+            // userDefaultsに保存された値の取得
+            let likepostidArray: [Int] = userDefaults.array(forKey: "likepostid") as! [Int]
+            
+            if likepostidArray.contains(post.id) {
+                heartButton.setImage(UIImage(named: "heart"), for: .normal)
+                heart = "On"
+            } else {
+                heartButton.setImage(UIImage(named: "heart mono"), for: .normal)
+                heart = "Off"
+            }
+        }
+        
         // DateFomatterクラスのインスタンス生成
         let dateFormatter = DateFormatter()
          
@@ -66,9 +84,31 @@ final class PostTableViewCell: UITableViewCell {
          
         // データ変換（String→Date）
         let postdate = dateFormatter.date(from: post.postDate)
-        print(postdate!)
          
         postDateLabel.text = postdate!.toFuzzy()
+    }
+    
+    @IBAction func heartButtonTouchUpInside(_ sender: Any) {
+        if let userDefaults = userDefaults {
+            // userDefaultsに保存された値の取得
+            var likepostidArray: [Int] = userDefaults.array(forKey: "likepostid") as! [Int]
+            
+            if heart == "Off" {
+                likepostidArray.append(post.id)
+                // 配列の保存
+                userDefaults.setValue(likepostidArray, forKey: "likepostid")
+                
+                heartButton.setImage(UIImage(named: "heart"), for: .normal)
+                heart = "On"
+            } else {
+                likepostidArray.removeAll(where: { $0 == post.id })
+                // 配列の保存
+                userDefaults.setValue(likepostidArray, forKey: "likepostid")
+                
+                heartButton.setImage(UIImage(named: "heart mono"), for: .normal)
+                heart = "Off"
+            }
+        }
     }
     
     override func awakeFromNib() {

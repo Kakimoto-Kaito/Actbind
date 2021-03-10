@@ -50,6 +50,8 @@ final class SignUpOkViewController: UIViewController {
             userDefaults.setValue("", forKeyPath: "bio")
             userDefaults.setValue("Original", forKeyPath: "appcolor")
             userDefaults.setValue("On", forKeyPath: "savephoto")
+            let likepostidArray: [Int] = []
+            userDefaults.setValue(likepostidArray, forKey: "likepostid")
             // ログイン！
             userDefaults.setValue(true, forKeyPath: "loginrecord")
         }
