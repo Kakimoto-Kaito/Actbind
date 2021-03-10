@@ -52,7 +52,6 @@ extension Date {
             } else {
                 result = String(format: NSLocalizedString("nitimae", comment: ""), "1")
             }
-    
         } else if diffSec < week {
             if (diffSec / day) == 1 {
                 result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
@@ -62,11 +61,15 @@ extension Date {
         } else {
             let dateFormatter = DateFormatter()
             
-            if components.year! > 0 {
-                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMMMd", options: 0, locale: Locale.current)!
+            dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyy", options: 0, locale: Locale.current)!
+            let postDateYear = dateFormatter.string(from: self)
+            let nowDateYear = dateFormatter.string(from: Date())
+            
+            if postDateYear == nowDateYear {
+                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "MMMMd", options: 0, locale: Locale.current)!
                 result = dateFormatter.string(from: self)
             } else {
-                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "MMMMd", options: 0, locale: Locale.current)!
+                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMMMd", options: 0, locale: Locale.current)!
                 result = dateFormatter.string(from: self)
             }
         }
