@@ -37,11 +37,22 @@ extension Date {
                 result = String(format: NSLocalizedString("fukusuufunnmae", comment: ""), "\(diffSec / minute)")
             }
         } else if diffSec < day {
-            if (diffSec / hour) == 1 {
-                result = String(format: NSLocalizedString("jikannmae", comment: ""), "\(diffSec / hour)")
+            let dateFormatter = DateFormatter()
+            
+            dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "dd", options: 0, locale: Locale.current)!
+            let postDateMonth = dateFormatter.string(from: self)
+            let nowDateMonth = dateFormatter.string(from: Date())
+            
+            if postDateMonth == nowDateMonth {
+                if (diffSec / hour) == 1 {
+                    result = String(format: NSLocalizedString("jikannmae", comment: ""), "\(diffSec / hour)")
+                } else {
+                    result = String(format: NSLocalizedString("fukusuujikannmae", comment: ""), "\(diffSec / hour)")
+                }
             } else {
-                result = String(format: NSLocalizedString("fukusuujikannmae", comment: ""), "\(diffSec / hour)")
+                result = String(format: NSLocalizedString("nitimae", comment: ""), "1")
             }
+    
         } else if diffSec < week {
             if (diffSec / day) == 1 {
                 result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
