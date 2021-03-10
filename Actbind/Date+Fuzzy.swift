@@ -53,10 +53,23 @@ extension Date {
                 result = String(format: NSLocalizedString("nitimae", comment: ""), "1")
             }
         } else if diffSec < week {
-            if (diffSec / day) == 1 {
-                result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
+            let dateFormatter = DateFormatter()
+            
+            dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "dd", options: 0, locale: Locale.current)!
+            let postDateDay = dateFormatter.string(from: self)
+            let sevenDaysAgoDate = Calendar.current.date(byAdding: .day, value: -7, to: Date())!
+            let sevenDaysAgoDateDay = dateFormatter.string(from: sevenDaysAgoDate)
+            print(postDateDay)
+            print(sevenDaysAgoDateDay)
+            if postDateDay != sevenDaysAgoDateDay {
+                if (diffSec / day) == 1 {
+                    result = String(format: NSLocalizedString("nitimae", comment: ""), "\(diffSec / day)")
+                } else {
+                    result = String(format: NSLocalizedString("fukusuunitimae", comment: ""), "\(diffSec / day)")
+                }
             } else {
-                result = String(format: NSLocalizedString("fukusuunitimae", comment: ""), "\(diffSec / day)")
+                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "MMMMd", options: 0, locale: Locale.current)!
+                result = dateFormatter.string(from: self)
             }
         } else {
             let dateFormatter = DateFormatter()
