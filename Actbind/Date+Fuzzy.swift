@@ -66,10 +66,10 @@ extension Date {
             let nowDateYear = dateFormatter.string(from: Date())
             
             if postDateYear == nowDateYear {
-                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "MMMd", options: 0, locale: Locale.current)!
+                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "MMMMd", options: 0, locale: Locale.current)!
                 result = dateFormatter.string(from: self)
             } else {
-                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMMd", options: 0, locale: Locale.current)!
+                dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yyyyMMMMd", options: 0, locale: Locale.current)!
                 result = dateFormatter.string(from: self)
             }
         }
