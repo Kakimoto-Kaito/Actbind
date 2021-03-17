@@ -21,13 +21,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>This will allow you to take a picture.</string>
+	<string>Esto le permitirá tomar una foto.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This will allow you to use some of Actbind's features, personalize your content, search for locations, and more.</string>
+	<string>Esto le permitirá utilizar algunas de las funciones de Actbind, personalizar su contenido, buscar ubicaciones y más.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>This allows you to take advantage of features such as video recording and voice search.</string>
+	<string>Esto le permite aprovechar funciones como la grabación de video y la búsqueda por voz.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This allows you to share the content of your camera roll and take advantage of other features related to your photos and videos.</string>
+	<string>Esto le permite compartir el contenido del carrete de su cámara y aprovechar otras funciones relacionadas con sus fotos y videos.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

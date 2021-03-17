@@ -17,17 +17,19 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>20210310184436</string>
+	<string>20210317144234</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Auf diese Weise können Sie ein Bild aufnehmen.</string>
+	<string>This will allow you to take a picture.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Auf diese Weise können Sie Funktionen wie Videoaufzeichnung und Sprachsuche nutzen.</string>
+	<string>This will allow you to use some of Actbind's features, personalize your content, search for locations, and more.</string>
+	<key>NSMainNibFile</key>
+	<string>Main</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Auf diese Weise können Sie den Inhalt Ihrer Kamerarolle freigeben und andere Funktionen für Ihre Fotos und Videos nutzen.</string>
+	<string>This allows you to take advantage of features such as video recording and voice search.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Auf diese Weise können Sie einige Funktionen von Actbind nutzen, Ihre Inhalte personalisieren, nach Standorten suchen und vieles mehr.</string>
+	<string>This allows you to share the content of your camera roll and take advantage of other features related to your photos and videos.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -51,7 +53,7 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
+	<key>UIMainStoryboardFile~ipad</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

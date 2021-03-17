@@ -21,13 +21,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>This will allow you to take a picture.</string>
+	<string>이렇게하면 사진을 찍을 수 있습니다.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This will allow you to use some of Actbind's features, personalize your content, search for locations, and more.</string>
+	<string>이를 통해 비디오 녹화 및 음성 검색과 같은 기능을 활용할 수 있습니다.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>This allows you to take advantage of features such as video recording and voice search.</string>
+	<string>이를 통해 카메라 롤의 콘텐츠를 공유하고 사진 및 비디오와 관련된 다른 기능을 활용할 수 있습니다.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This allows you to share the content of your camera roll and take advantage of other features related to your photos and videos.</string>
+	<string>이를 통해 Actbind의 일부 기능을 사용하고, 콘텐츠를 개인화하고, 위치를 검색하는 등의 작업을 수행 할 수 있습니다.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
